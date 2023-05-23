@@ -1,9 +1,7 @@
 package main
 
-import (
-	"utils/goexecl"
-)
+import "github.com/govnd/hik"
 
 func main() {
-	al := goexecl.Execl("/mnt/d/Users/gocacc/Desktop/图纸/云山监控IP.xlsx")
+	hik.GetEncodeDevice()
 }
